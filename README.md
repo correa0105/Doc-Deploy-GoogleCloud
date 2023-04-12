@@ -48,7 +48,7 @@ Adicione um repositório remoto referenciando seu repositório de metadados usan
 
 Volte para seu repositório local (onde esta o seu app) configure o git e commite tudo
 
-Adicione um repositório remoto referenciando o ip do servidor com **git remove add "nome da branch(normalmente main)" "ip_do_servidor:nome do repositório de metadados"**
+Adicione um repositório remoto referenciando o ip do servidor com **git remove add "nome da branch(normalmente origin)" "ip_do_servidor:nome do repositório de metadados"**
 
 Envie os dados do repositório local para o remoto utilizando **git push "nome da branch remota" "nome da branch local"**
 
@@ -72,7 +72,7 @@ Va no seu app, instale o node_modules com **npm install** e em seguida instale o
 
 Configure as portas, variaveis do .env e etc.
 
-Inicie o servidor com o comando **pm2 start "caminho do servidor (normalmente ./index.js ou ./server.js)" --name "nome do servidor"**
+Inicie o servidor com o comando **pm2 start "caminho do servidor (normalmente ./index.js ou ./server.js)" --name="nome do servidor"**
 
 Configure o script de startup automatico do servidor usando o comando **pm2 startup**
 
