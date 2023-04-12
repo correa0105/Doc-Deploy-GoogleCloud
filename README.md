@@ -44,11 +44,11 @@ Crie um repositório de metadados dentro do seu user do servidor e inicie o git 
 
 Crie um repositório do seu app e inicie o git com **git init**
 
-Adicione um repositório remoto referenciando seu repositório de metadados usando **git remote add "nome da branch(normalmente origin)" "caminho do repositório de metadados"**
+Adicione um repositório remoto referenciando seu repositório de metadados usando **git remote add "nome da branch(normalmente main)" "caminho do repositório de metadados"**
 
 Volte para seu repositório local (onde esta o seu app) configure o git e commite tudo
 
-Adicione um repositório remoto referenciando o ip do servidor com **git remove add "nome da branch(normalmente origin)" "ip_do_servidor:nome do repositório de metadados"**
+Adicione um repositório remoto referenciando o ip do servidor com **git remote add "nome da branch(normalmente origin)" "ip_do_servidor:nome do repositório de metadados"**
 
 Envie os dados do repositório local para o remoto utilizando **git push "nome da branch remota" "nome da branch local"**
 
